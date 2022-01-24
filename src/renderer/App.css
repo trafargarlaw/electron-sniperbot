@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.App {
+  background: linear-gradient(
+    91.75deg,
+    rgba(138, 203, 255, 0.85) 1.33%,
+    rgba(245, 245, 247, 0.85) 98.67%
+  );
+  backdrop-filter: blur(100px);
+}
+body {
+  font-family: Righteous;
+}
+
+li {
+  list-style: none;
+}
+.drag {
+  -webkit-app-region: drag;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input {
+  color: #280d5f;
+}
+.gradient {
+  background: linear-gradient(
+    270.33deg,
+    #0610ff -1.45%,
+    rgba(255, 0, 0, 0.139) 103.09%
+  );
+  width: 99px;
+  height: 37px;
+}
+.textGradient {
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  background: linear-gradient(
+    270.33deg,
+    #0376fd 0%,
+    rgba(250, 0, 0, 0.25) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Console {
+  background: linear-gradient(
+    91.75deg,
+    rgba(255, 255, 255, 0.4) 1.33%,
+    rgba(255, 255, 255, 0.4) 98.67%
+  );
+  border: 3.11329px solid rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(77.8321px);
+  width: 100%;
+  height: 95%;
+  font-family: monospace;
+  font-weight: 700;
+}
+code {
+  color: rgb(56, 55, 65);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 6px !important;
+  height: 6px !important;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 100%, 0.1);
+}
